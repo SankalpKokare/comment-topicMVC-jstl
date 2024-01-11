@@ -1,0 +1,33 @@
+package beans;
+
+public class Comment {
+
+		int cid;
+		String text;
+		int id;
+		String uid;
+		
+		
+		
+		public Comment() {
+			super();
+		}
+
+
+
+		public Comment(int cid, String text, int id, String uid) {
+			super();
+			this.cid = cid;
+			this.text = text;
+			this.id = id;
+			this.uid = uid;
+		}
+		
+		
+		
+		
+}
+
+
+
+

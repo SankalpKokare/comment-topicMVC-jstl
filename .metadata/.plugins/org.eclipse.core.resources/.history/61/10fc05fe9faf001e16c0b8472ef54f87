@@ -1,0 +1,48 @@
+package beans;
+
+public class Topic {
+
+		int topicid;
+		int name;
+		String desc;
+		String uid;
+		
+		
+		public Topic() {
+			super();
+		}
+		3
+		public Topic(int topicid, int name, String desc, String uid) {
+			super();
+			this.topicid = topicid;
+			this.name = name;
+			this.desc = desc;
+			this.uid = uid;
+		}
+		public int getTopicid() {
+			return topicid;
+		}
+		public void setTopicid(int topicid) {
+			this.topicid = topicid;
+		}
+		public int getName() {
+			return name;
+		}
+		public void setName(int name) {
+			this.name = name;
+		}
+		public String getDesc() {
+			return desc;
+		}
+		public void setDesc(String desc) {
+			this.desc = desc;
+		}
+		public String getUid() {
+			return uid;
+		}
+		public void setUid(String uid) {
+			this.uid = uid;
+		}
+		
+		
+}
